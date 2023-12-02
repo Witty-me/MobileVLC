@@ -1,52 +1,66 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+# Compiled source #
+###################
+*.com
+*.class
 *.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.o
+*.so
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# STM32CubeIDE specific #
+#########################
+Debug/
+Release/
+*.dep
+*.o.d
+*.stackusage
+
+# Backup & report files from merging #
+######################################
+*.bak
+*.swp
+*.orig
+
+# Temporary files #
+###################
+*.tmp
+*.temp
+*.tmo
+
+# User-specific files #
+########################
+*.user
+*.perspective
+.settings/
+
+# Build results #
+#################
+build/

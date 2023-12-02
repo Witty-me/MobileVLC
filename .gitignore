@@ -64,3 +64,5 @@ Release/
 # Build results #
 #################
 build/
+
+.ipynb_checkpoints/
